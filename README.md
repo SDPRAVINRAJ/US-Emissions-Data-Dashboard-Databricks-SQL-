@@ -118,45 +118,7 @@ LIMIT 10;
 
 ---
 
-## 📁 Project Structure
 
-```
-emissions-dashboard/
-├── queries/
-│   ├── 01_geospatial_map.sql
-│   ├── 02_emissions_per_person.sql
-│   ├── 03_top10_states.sql
-│   ├── 04_national_total.sql
-│   └── 05_top10_counties.sql
-├── screenshots/
-│   ├── dashboard_overview.png
-│   ├── emissions_map.png
-│   ├── scatter_donut.png
-│   └── county_barchart.png
-└── README.md
-```
-
----
-
-## 🚀 Getting Started
-
-1. **Set up Databricks Free Edition** at [databricks.com](https://www.databricks.com/try-databricks)
-2. **Upload the emissions dataset** to your Unity Catalog under `emissions.default.emissions_data`
-3. **Create a SQL Warehouse** (Serverless) in Databricks SQL
-4. **Run queries** from the `queries/` folder in the SQL Editor
-5. **Create a new Dashboard** and add visualizations linked to each dataset
-
----
-
-## 📈 Dashboard Screenshots
-
-| View | Description |
-|------|-------------|
-| ![Map](screenshots/emissions_map.png) | Geospatial bubble map — all 3,000+ county centroids |
-| ![Scatter](screenshots/scatter_donut.png) | Scatter plot + state donut chart |
-| ![Bar](screenshots/county_barchart.png) | Top 10 counties horizontal bar |
-
----
 
 ## 🔮 Future Enhancements
 
